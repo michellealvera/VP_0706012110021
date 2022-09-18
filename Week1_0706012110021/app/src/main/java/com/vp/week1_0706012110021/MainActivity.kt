@@ -2,6 +2,7 @@ package com.vp.week1_0706012110021
 
 import Adapter.ListHewanRVAdapter
 import Database.GlobalVar
+import Interface.CardListener
 import android.Manifest
 import android.content.Intent
 import android.content.pm.PackageManager
@@ -14,10 +15,10 @@ import androidx.core.view.isEmpty
 import androidx.recyclerview.widget.GridLayoutManager
 import com.vp.week1_0706012110021.databinding.ActivityMainBinding
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : AppCompatActivity(), CardListener {
 
     private lateinit var viewBind:ActivityMainBinding
-    private val adapter = ListHewanRVAdapter(GlobalVar.listDataHewan)
+    private val adapter = ListHewanRVAdapter(GlobalVar.listDataHewan, this, this)
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -81,4 +82,10 @@ class MainActivity : AppCompatActivity() {
             startActivity(myIntent)
         }
     }
+
+    override fun onCardClick(position: Int) {
+        TODO("Not yet implemented")
+    }
+
+
 }

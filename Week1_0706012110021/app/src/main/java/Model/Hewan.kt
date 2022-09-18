@@ -6,12 +6,12 @@ import android.os.Parcelable
 data class Hewan(
     var namanya:String?,
     var jenisnya:String?,
-    var usianya:Int?
+    var usianya:String?
 ) : Parcelable{
     constructor(parcel: Parcel) : this(
         parcel.readString(),
         parcel.readString(),
-        parcel.readValue(Int::class.java.classLoader) as? Int
+        parcel.readString()
     ) {
     }
 
