@@ -19,12 +19,11 @@ import com.vp.week1_0706012110021.R
 import com.vp.week1_0706012110021.databinding.CardAnimalBinding
 import kotlin.coroutines.coroutineContext
 
-class ListHewanRVAdapter(val listHewan: ArrayList<Hewan>, cardListener: CardListener, context: Context): RecyclerView.Adapter<ListHewanRVAdapter.viewHolder>() {
-    class viewHolder (val itemView: View, context: Context): RecyclerView.ViewHolder(itemView) {
+class ListHewanRVAdapter(val listHewan: ArrayList<Hewan>, cardListener: CardListener): RecyclerView.Adapter<ListHewanRVAdapter.viewHolder>() {
+    class viewHolder (val itemView: View, val cardListenerr: CardListener): RecyclerView.ViewHolder(itemView) {
         val binding = CardAnimalBinding.bind(itemView)
         val listHewan = ArrayList<Hewan>()
         val position = listHewan[adapterPosition]
-        val context = binding.root.context
 
         fun setData(data: Hewan){
             binding.aniNameTextView.text = data.namanya
@@ -33,23 +32,23 @@ class ListHewanRVAdapter(val listHewan: ArrayList<Hewan>, cardListener: CardList
             if(data.imageUri.isNotEmpty()) {
                 binding.aniImageImageView.setImageURI(Uri.parse(data.imageUri))
             }
-            binding.editButton.setOnClickListener {
-                val myIntent = Intent(context, InputanimalActivity::class.java).putExtra("position", position)
-                context.startActivity(myIntent)
-            }
-            binding.deleteButton.setOnClickListener {
-                AlertDialog.Builder(context).setTitle("Delete").setIcon(R.drawable.ic_round_warning).setMessage("Apakah Anda akan membuang data ${data.namanya} ini?").setPositiveButton("Ya"){ dialog,_->
-                    listHewan.removeAt(adapterPosition)
-                    Toast.makeText(context,"Hewan telah berhasil dihapus",Toast.LENGTH_SHORT).show()
-                    dialog.dismiss()
-                }
-                    .setNegativeButton("Tidak"){
-                        dialog,_->
-                        dialog.dismiss()
-                    }
-                    .create()
-                    .show()
-            }
+//            binding.editButton.setOnClickListener {
+//                val myIntent = Intent(context, InputanimalActivity::class.java).putExtra("position", position)
+//                context.startActivity(myIntent)
+//            }
+//            binding.deleteButton.setOnClickListener {
+//                AlertDialog.Builder(context).setTitle("Delete").setIcon(R.drawable.ic_round_warning).setMessage("Apakah Anda akan membuang data ${data.namanya} ini?").setPositiveButton("Ya"){ dialog,_->
+//                    listHewan.removeAt(adapterPosition)
+//                    Toast.makeText(context,"Hewan telah berhasil dihapus",Toast.LENGTH_SHORT).show()
+//                    dialog.dismiss()
+//                }
+//                    .setNegativeButton("Tidak"){
+//                        dialog,_->
+//                        dialog.dismiss()
+//                    }
+//                    .create()
+//                    .show()
+//            }
         }
     }
 

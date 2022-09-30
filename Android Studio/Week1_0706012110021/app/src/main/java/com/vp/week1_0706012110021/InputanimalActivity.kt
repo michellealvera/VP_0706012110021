@@ -2,6 +2,7 @@ package com.vp.week1_0706012110021
 
 import Database.GlobalVar
 import Model.Hewan
+import android.app.ActionBar
 import android.app.Activity
 import android.content.Intent
 import android.net.Uri
@@ -11,6 +12,7 @@ import android.os.Bundle
 import android.view.Display
 import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
+import androidx.appcompat.widget.ActionBarContextView
 import com.vp.week1_0706012110021.databinding.ActivityInputanimalBinding
 
 class InputanimalActivity : AppCompatActivity() {
@@ -36,6 +38,7 @@ class InputanimalActivity : AppCompatActivity() {
     private fun GetIntent(){
         position = intent.getIntExtra("position", -1)
         if (position != -1){
+
             val hewan = GlobalVar.listDataHewan[position]
             Display(hewan)
         }
