@@ -1,0 +1,37 @@
+com.vp.week4retrofit.app-savedstate-1.2.0-0 C:\Users\miche\.gradle\caches\transforms-3\02d9a1c992ba142a6f1c7f5d7ffca310\transformed\savedstate-1.2.0\res
+com.vp.week4retrofit.app-appcompat-resources-1.5.1-1 C:\Users\miche\.gradle\caches\transforms-3\04b99c2d3ee38714c14bf3d221b2a08b\transformed\appcompat-resources-1.5.1\res
+com.vp.week4retrofit.app-material-1.6.1-2 C:\Users\miche\.gradle\caches\transforms-3\0700c079a9361c9bc5e6404d34690c50\transformed\material-1.6.1\res
+com.vp.week4retrofit.app-emoji2-views-helper-1.2.0-3 C:\Users\miche\.gradle\caches\transforms-3\0b622ae0009252fd9de3ea6d232488c7\transformed\emoji2-views-helper-1.2.0\res
+com.vp.week4retrofit.app-lifecycle-livedata-core-2.5.1-4 C:\Users\miche\.gradle\caches\transforms-3\0ff8f254ca685ecf1cb4e6f520f40b73\transformed\lifecycle-livedata-core-2.5.1\res
+com.vp.week4retrofit.app-lifecycle-livedata-2.5.1-5 C:\Users\miche\.gradle\caches\transforms-3\1cb6376de20b42be3ca5676f64db84ba\transformed\lifecycle-livedata-2.5.1\res
+com.vp.week4retrofit.app-lifecycle-livedata-core-ktx-2.5.1-6 C:\Users\miche\.gradle\caches\transforms-3\2e125ad05a44616f2deadbea97146ec6\transformed\lifecycle-livedata-core-ktx-2.5.1\res
+com.vp.week4retrofit.app-fragment-1.5.1-7 C:\Users\miche\.gradle\caches\transforms-3\33bc512cbf3db1e655ee63d1aa73b717\transformed\fragment-1.5.1\res
+com.vp.week4retrofit.app-recyclerview-1.1.0-8 C:\Users\miche\.gradle\caches\transforms-3\4b680873f5535aea704d3a34b63b6935\transformed\recyclerview-1.1.0\res
+com.vp.week4retrofit.app-viewpager2-1.0.0-9 C:\Users\miche\.gradle\caches\transforms-3\4bec0276ba6259360fdac8888ee312fa\transformed\viewpager2-1.0.0\res
+com.vp.week4retrofit.app-appcompat-1.5.1-10 C:\Users\miche\.gradle\caches\transforms-3\685980b024686d78956b91eec9b43f3b\transformed\appcompat-1.5.1\res
+com.vp.week4retrofit.app-core-1.8.0-11 C:\Users\miche\.gradle\caches\transforms-3\6a19de105318aab1da00cfa3c60fb56e\transformed\core-1.8.0\res
+com.vp.week4retrofit.app-activity-1.5.1-12 C:\Users\miche\.gradle\caches\transforms-3\72aa18d267fcea65a67f1c67469f91b1\transformed\activity-1.5.1\res
+com.vp.week4retrofit.app-annotation-experimental-1.1.0-13 C:\Users\miche\.gradle\caches\transforms-3\760b9af4b43b4d512130ddd1633ee153\transformed\annotation-experimental-1.1.0\res
+com.vp.week4retrofit.app-lifecycle-viewmodel-2.5.1-14 C:\Users\miche\.gradle\caches\transforms-3\83a8f2ff4fefab06a91b8a5cb0437f5b\transformed\lifecycle-viewmodel-2.5.1\res
+com.vp.week4retrofit.app-emoji2-1.2.0-15 C:\Users\miche\.gradle\caches\transforms-3\848773e611bbde5d3ec0ec3e63d01c98\transformed\emoji2-1.2.0\res
+com.vp.week4retrofit.app-drawerlayout-1.1.1-16 C:\Users\miche\.gradle\caches\transforms-3\89f334ed0aaa1263b47c6d75629cdccc\transformed\drawerlayout-1.1.1\res
+com.vp.week4retrofit.app-constraintlayout-2.1.4-17 C:\Users\miche\.gradle\caches\transforms-3\9827ec6617366e82ed5e7c7a909d86e6\transformed\constraintlayout-2.1.4\res
+com.vp.week4retrofit.app-lifecycle-viewmodel-ktx-2.5.1-18 C:\Users\miche\.gradle\caches\transforms-3\986014835ec9efb8bc56e0c587b8eff1\transformed\lifecycle-viewmodel-ktx-2.5.1\res
+com.vp.week4retrofit.app-core-ktx-1.8.0-19 C:\Users\miche\.gradle\caches\transforms-3\9f2d8786483f16acab3469f1ecada2e8\transformed\core-ktx-1.8.0\res
+com.vp.week4retrofit.app-lifecycle-process-2.4.1-20 C:\Users\miche\.gradle\caches\transforms-3\a4f0fb44e9b56370f8c2ed23c9d5d030\transformed\lifecycle-process-2.4.1\res
+com.vp.week4retrofit.app-lifecycle-runtime-2.5.1-21 C:\Users\miche\.gradle\caches\transforms-3\b1625850bd12ed5a169353107cc1dd79\transformed\lifecycle-runtime-2.5.1\res
+com.vp.week4retrofit.app-startup-runtime-1.1.1-22 C:\Users\miche\.gradle\caches\transforms-3\baef32cd3c953915a0114f73cc9cca3f\transformed\startup-runtime-1.1.1\res
+com.vp.week4retrofit.app-lifecycle-livedata-ktx-2.5.1-23 C:\Users\miche\.gradle\caches\transforms-3\c74a64e72c7cf9f33632b23cc70f97dd\transformed\lifecycle-livedata-ktx-2.5.1\res
+com.vp.week4retrofit.app-glide-4.14.2-24 C:\Users\miche\.gradle\caches\transforms-3\d373142a3f75711c312ab4342aa00599\transformed\glide-4.14.2\res
+com.vp.week4retrofit.app-transition-1.2.0-25 C:\Users\miche\.gradle\caches\transforms-3\d9ab7ff9bc4a114cf32a2090c5357a01\transformed\transition-1.2.0\res
+com.vp.week4retrofit.app-cardview-1.0.0-26 C:\Users\miche\.gradle\caches\transforms-3\ecb62397fcd2d0e31dd8cc20a358496e\transformed\cardview-1.0.0\res
+com.vp.week4retrofit.app-lifecycle-viewmodel-savedstate-2.5.1-27 C:\Users\miche\.gradle\caches\transforms-3\f1c05abca8b731045f6324e39a2dc706\transformed\lifecycle-viewmodel-savedstate-2.5.1\res
+com.vp.week4retrofit.app-coordinatorlayout-1.1.0-28 C:\Users\miche\.gradle\caches\transforms-3\ff339137cecee5be0e91e8f58664aa0c\transformed\coordinatorlayout-1.1.0\res
+com.vp.week4retrofit.app-pngs-29 D:\Documents\Android Studio\Week4Retrofit\app\build\generated\res\pngs\debug
+com.vp.week4retrofit.app-resValues-30 D:\Documents\Android Studio\Week4Retrofit\app\build\generated\res\resValues\debug
+com.vp.week4retrofit.app-rs-31 D:\Documents\Android Studio\Week4Retrofit\app\build\generated\res\rs\debug
+com.vp.week4retrofit.app-packageDebugResources-32 D:\Documents\Android Studio\Week4Retrofit\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.vp.week4retrofit.app-packageDebugResources-33 D:\Documents\Android Studio\Week4Retrofit\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.vp.week4retrofit.app-merged_res-34 D:\Documents\Android Studio\Week4Retrofit\app\build\intermediates\merged_res\debug
+com.vp.week4retrofit.app-debug-35 D:\Documents\Android Studio\Week4Retrofit\app\src\debug\res
+com.vp.week4retrofit.app-main-36 D:\Documents\Android Studio\Week4Retrofit\app\src\main\res
