@@ -1,0 +1,116 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.vp.week4retrofit"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->D:\Documents\Android Studio\Week4Retrofit\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->D:\Documents\Android Studio\Week4Retrofit\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\Documents\Android Studio\Week4Retrofit\app\src\main\AndroidManifest.xml:5:5-67
+11-->D:\Documents\Android Studio\Week4Retrofit\app\src\main\AndroidManifest.xml:5:22-64
+12
+13    <application
+13-->D:\Documents\Android Studio\Week4Retrofit\app\src\main\AndroidManifest.xml:7:5-45:19
+14        android:name="com.vp.week4retrofit.Application"
+14-->D:\Documents\Android Studio\Week4Retrofit\app\src\main\AndroidManifest.xml:8:9-36
+15        android:allowBackup="true"
+15-->D:\Documents\Android Studio\Week4Retrofit\app\src\main\AndroidManifest.xml:9:9-35
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.8.0] C:\Users\miche\.gradle\caches\transforms-3\6a19de105318aab1da00cfa3c60fb56e\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+17        android:dataExtractionRules="@xml/data_extraction_rules"
+17-->D:\Documents\Android Studio\Week4Retrofit\app\src\main\AndroidManifest.xml:10:9-65
+18        android:debuggable="true"
+19        android:extractNativeLibs="false"
+20        android:fullBackupContent="@xml/backup_rules"
+20-->D:\Documents\Android Studio\Week4Retrofit\app\src\main\AndroidManifest.xml:11:9-54
+21        android:icon="@mipmap/ic_launcher"
+21-->D:\Documents\Android Studio\Week4Retrofit\app\src\main\AndroidManifest.xml:12:9-43
+22        android:label="@string/app_name"
+22-->D:\Documents\Android Studio\Week4Retrofit\app\src\main\AndroidManifest.xml:13:9-41
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->D:\Documents\Android Studio\Week4Retrofit\app\src\main\AndroidManifest.xml:14:9-54
+24        android:supportsRtl="true"
+24-->D:\Documents\Android Studio\Week4Retrofit\app\src\main\AndroidManifest.xml:15:9-35
+25        android:testOnly="true"
+26        android:theme="@style/Theme.Week4Retrofit" >
+26-->D:\Documents\Android Studio\Week4Retrofit\app\src\main\AndroidManifest.xml:16:9-51
+27        <activity
+27-->D:\Documents\Android Studio\Week4Retrofit\app\src\main\AndroidManifest.xml:18:9-24:20
+28            android:name="com.vp.week4retrofit.SplashScreenActivity"
+28-->D:\Documents\Android Studio\Week4Retrofit\app\src\main\AndroidManifest.xml:19:13-49
+29            android:exported="false" >
+29-->D:\Documents\Android Studio\Week4Retrofit\app\src\main\AndroidManifest.xml:20:13-37
+30            <meta-data
+30-->D:\Documents\Android Studio\Week4Retrofit\app\src\main\AndroidManifest.xml:21:13-23:36
+31                android:name="android.app.lib_name"
+31-->D:\Documents\Android Studio\Week4Retrofit\app\src\main\AndroidManifest.xml:22:17-52
+32                android:value="" />
+32-->D:\Documents\Android Studio\Week4Retrofit\app\src\main\AndroidManifest.xml:23:17-33
+33        </activity>
+34        <activity
+34-->D:\Documents\Android Studio\Week4Retrofit\app\src\main\AndroidManifest.xml:25:9-31:20
+35            android:name="com.vp.week4retrofit.view.MovieDetail"
+35-->D:\Documents\Android Studio\Week4Retrofit\app\src\main\AndroidManifest.xml:26:13-45
+36            android:exported="false" >
+36-->D:\Documents\Android Studio\Week4Retrofit\app\src\main\AndroidManifest.xml:27:13-37
+37            <meta-data
+37-->D:\Documents\Android Studio\Week4Retrofit\app\src\main\AndroidManifest.xml:21:13-23:36
+38                android:name="android.app.lib_name"
+38-->D:\Documents\Android Studio\Week4Retrofit\app\src\main\AndroidManifest.xml:22:17-52
+39                android:value="" />
+39-->D:\Documents\Android Studio\Week4Retrofit\app\src\main\AndroidManifest.xml:23:17-33
+40        </activity>
+41        <activity
+41-->D:\Documents\Android Studio\Week4Retrofit\app\src\main\AndroidManifest.xml:32:9-44:20
+42            android:name="com.vp.week4retrofit.view.MainActivity"
+42-->D:\Documents\Android Studio\Week4Retrofit\app\src\main\AndroidManifest.xml:33:13-46
+43            android:exported="true" >
+43-->D:\Documents\Android Studio\Week4Retrofit\app\src\main\AndroidManifest.xml:34:13-36
+44            <intent-filter>
+44-->D:\Documents\Android Studio\Week4Retrofit\app\src\main\AndroidManifest.xml:35:13-39:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->D:\Documents\Android Studio\Week4Retrofit\app\src\main\AndroidManifest.xml:36:17-69
+45-->D:\Documents\Android Studio\Week4Retrofit\app\src\main\AndroidManifest.xml:36:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->D:\Documents\Android Studio\Week4Retrofit\app\src\main\AndroidManifest.xml:38:17-77
+47-->D:\Documents\Android Studio\Week4Retrofit\app\src\main\AndroidManifest.xml:38:27-74
+48            </intent-filter>
+49
+50            <meta-data
+50-->D:\Documents\Android Studio\Week4Retrofit\app\src\main\AndroidManifest.xml:21:13-23:36
+51                android:name="android.app.lib_name"
+51-->D:\Documents\Android Studio\Week4Retrofit\app\src\main\AndroidManifest.xml:22:17-52
+52                android:value="" />
+52-->D:\Documents\Android Studio\Week4Retrofit\app\src\main\AndroidManifest.xml:23:17-33
+53        </activity>
+54
+55        <provider
+55-->[androidx.emoji2:emoji2:1.2.0] C:\Users\miche\.gradle\caches\transforms-3\848773e611bbde5d3ec0ec3e63d01c98\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+56            android:name="androidx.startup.InitializationProvider"
+56-->[androidx.emoji2:emoji2:1.2.0] C:\Users\miche\.gradle\caches\transforms-3\848773e611bbde5d3ec0ec3e63d01c98\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+57            android:authorities="com.vp.week4retrofit.androidx-startup"
+57-->[androidx.emoji2:emoji2:1.2.0] C:\Users\miche\.gradle\caches\transforms-3\848773e611bbde5d3ec0ec3e63d01c98\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+58            android:exported="false" >
+58-->[androidx.emoji2:emoji2:1.2.0] C:\Users\miche\.gradle\caches\transforms-3\848773e611bbde5d3ec0ec3e63d01c98\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+59            <meta-data
+59-->[androidx.emoji2:emoji2:1.2.0] C:\Users\miche\.gradle\caches\transforms-3\848773e611bbde5d3ec0ec3e63d01c98\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+60                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+60-->[androidx.emoji2:emoji2:1.2.0] C:\Users\miche\.gradle\caches\transforms-3\848773e611bbde5d3ec0ec3e63d01c98\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+61                android:value="androidx.startup" />
+61-->[androidx.emoji2:emoji2:1.2.0] C:\Users\miche\.gradle\caches\transforms-3\848773e611bbde5d3ec0ec3e63d01c98\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+62            <meta-data
+62-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\miche\.gradle\caches\transforms-3\a4f0fb44e9b56370f8c2ed23c9d5d030\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+63                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+63-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\miche\.gradle\caches\transforms-3\a4f0fb44e9b56370f8c2ed23c9d5d030\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+64                android:value="androidx.startup" />
+64-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\miche\.gradle\caches\transforms-3\a4f0fb44e9b56370f8c2ed23c9d5d030\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+65        </provider>
+66    </application>
+67
+68</manifest>
